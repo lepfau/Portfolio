@@ -4,12 +4,14 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
+import Navmain from "./components/Navmain"
 
 import { Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
+<Navmain />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/About" component={About} />
