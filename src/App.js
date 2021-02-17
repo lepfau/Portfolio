@@ -11,7 +11,7 @@ import { Switch, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-<Navmain />
+
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/About" component={About} />
